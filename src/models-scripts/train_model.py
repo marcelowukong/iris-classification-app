@@ -6,7 +6,6 @@ Created on Sat Oct 19 15:13:08 2019
 
 #Classificador Baseado em Random Forest
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import pickle
@@ -14,12 +13,12 @@ from pathlib import Path
 import pandas as pd
 
 #Definindo Paths
-path_models = Path("C:/Users/Wukong/Documents/GitHub/iris-classification-app/models/")
-path_data_raw = Path("C:/Users/Wukong/Documents/GitHub/iris-classification-app/data/raw")
+PATH_MODELS = Path("../../models")
+PATH_DATA_RAW = Path("../../data-source/raw")
 
 #Carragando Iris Dataset
 #iris = load_iris()
-iris = pd.read_csv(path_data_raw/"raw_iris_data.csv")
+iris = pd.read_csv(PATH_DATA_RAW/"raw_iris_data.csv")
 X = iris.iloc[:,:-1]
 y = iris.iloc[:,-1]
 
@@ -41,5 +40,5 @@ predicted = clf.predict(X_test)
 print(accuracy_score(predicted, y_test))
 
 #Salvando Modelo
-with open(path_models/'rf.pkl', 'wb') as model_pkl:
+with open(PATH_MODELS/'rf.pkl', 'wb') as model_pkl:
     pickle.dump(clf, model_pkl)

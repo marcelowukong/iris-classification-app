@@ -11,9 +11,9 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-path_models = Path("C:/Users/Wukong/Documents/GitHub/iris-classification-app/models/")
+PATH_MODELS = Path("../../models")
 
-with open(path_models/'rf.pkl', 'rb') as model_file:
+with open(PATH_MODELS/'rf.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 app = Flask(__name__)
@@ -67,4 +67,4 @@ def predict_iris_file():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='127.0.0.1', port=5000)
