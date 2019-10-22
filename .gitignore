@@ -87,3 +87,37 @@ target/
 
 # Mypy cache
 .mypy_cache/
+.venv-iris-classification-app/pyvenv.cfg
+.venv-iris-classification-app/Scripts/activate
+.venv-iris-classification-app/Scripts/activate.bat
+.venv-iris-classification-app/Scripts/Activate.ps1
+.venv-iris-classification-app/Scripts/deactivate.bat
+.venv-iris-classification-app/Scripts/easy_install-3.7.exe
+.venv-iris-classification-app/Scripts/easy_install.exe
+.venv-iris-classification-app/Scripts/flask.exe
+.venv-iris-classification-app/Scripts/jsonschema.exe
+.venv-iris-classification-app/Scripts/pip.exe
+.venv-iris-classification-app/Scripts/pip3.7.exe
+.venv-iris-classification-app/Scripts/pip3.exe
+.venv-iris-classification-app/Scripts/python.exe
+.venv-iris-classification-app/Scripts/python_d.exe
+.venv-iris-classification-app/Scripts/pythonw.exe
+.venv-iris-classification-app/Scripts/pythonw_d.exe
+.venv-iris-classification-app/Scripts/f2py.exe
+.venv-iris-classification-app/Scripts/iptest.exe
+.venv-iris-classification-app/Scripts/iptest3.exe
+.venv-iris-classification-app/Scripts/ipython.exe
+.venv-iris-classification-app/Scripts/ipython3.exe
+.venv-iris-classification-app/Scripts/jupyter-kernel.exe
+.venv-iris-classification-app/Scripts/jupyter-kernelspec.exe
+.venv-iris-classification-app/Scripts/jupyter-migrate.exe
+.venv-iris-classification-app/Scripts/jupyter-run.exe
+.venv-iris-classification-app/Scripts/jupyter-troubleshoot.exe
+.venv-iris-classification-app/Scripts/jupyter.exe
+.venv-iris-classification-app/Scripts/pygmentize.exe
+.venv-iris-classification-app/Scripts/pywin32_postinstall.py
+.venv-iris-classification-app/Scripts/pywin32_testall.py
+.venv-iris-classification-app/share/jupyter/kernels/python3/kernel.json
+.venv-iris-classification-app/share/jupyter/kernels/python3/logo-32x32.png
+.venv-iris-classification-app/share/jupyter/kernels/python3/logo-64x64.png
+.venv-iris-classification-app/share/man/man1/ipython.1.gz
